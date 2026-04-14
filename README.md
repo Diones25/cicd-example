@@ -1,4 +1,4 @@
-# b7cicd-example
+# cicd-example
 
 API REST de tarefas em **Express + TypeScript** usada como projeto base do curso **Fundamentos de CI/CD**.
 
@@ -9,7 +9,7 @@ API REST de tarefas em **Express + TypeScript** usada como projeto base do curso
 ```bash
 # 1. Clone o repositório
 git clone <url-do-repo>
-cd b7cicd-example
+cd cicd-example
 
 # 2. Instale as dependências
 npm install
