@@ -20,4 +20,20 @@ jobs:
         
       - name: Executa os testes
         run: npm test
-      
+  build:
+    runs-on: ubuntu-latest
+    needs: test
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v4
+
+      - name: Instala o Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Instala as dependências
+        run: npm install
+        
+      - name: Rodar o código
+        run: npm run build
