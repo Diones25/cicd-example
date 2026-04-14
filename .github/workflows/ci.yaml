@@ -3,6 +3,10 @@ on:
   pull_request:
     branches:
       - develop
+env:
+  PORT: ${{ vars.PORT }}
+  API_TOKEN: ${{ secrets.API_TOKEN }}
+  
 jobs:
   test:
     runs-on: ubuntu-latest
