@@ -1,7 +1,7 @@
 # cicd-example
 
 API REST de tarefas em **Express + TypeScript** usada como projeto base do curso **Fundamentos de CI/CD**.
-
+ITEM EDITADO
 ---
 
 ## Rodando localmente
