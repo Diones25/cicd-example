@@ -3,6 +3,12 @@ on:
   pull_request:
     branches:
       - develop
+    paths:
+      - 'src/**'
+      - 'tests/**'
+      - 'package.json'
+      - 'tsconfig.json'
+      - '.github/workflows/**'
 env:
   PORT: ${{ vars.PORT }}
   API_TOKEN: ${{ secrets.API_TOKEN }}
